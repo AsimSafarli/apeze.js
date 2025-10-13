@@ -1,0 +1,19 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "apeze dev",
+    "build": "apeze build",
+    "start": "apeze start",
+    "preview": "apeze preview"
+  },
+  "dependencies": {
+    "@apeze/cli": "^0.1.2",
+    "@apeze/core": "^0.1.5",
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
