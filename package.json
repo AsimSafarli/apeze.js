@@ -9,7 +9,7 @@
     "preview": "apeze preview"
   },
   "dependencies": {
-    "@apeze/cli": "^0.1.2",
+    "@apeze/cli": "^0.1.3",
     "@apeze/core": "^0.1.5",
     "react": "^19.2.0"
   },
