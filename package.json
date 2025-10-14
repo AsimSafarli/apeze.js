@@ -9,8 +9,9 @@
     "preview": "apeze preview"
   },
   "dependencies": {
-    "@apeze/cli": "^0.1.3",
-    "@apeze/core": "^0.1.5",
+    "@apeze/cli": "^0.1.6",
+    "@apeze/core": "^0.1.7",
+    "marked": "^16.4.0",
     "react": "^19.2.0"
   },
   "devDependencies": {
