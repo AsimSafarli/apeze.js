@@ -1,12 +1,8 @@
-export default {
+import { createApezeApp } from "@apeze/core";
+
+const app = await createApezeApp({
   port: 4000,
-  useTailwind: true,
-  swagger: {
-    enabled: true,
-    title: "API",
-    version: "1.0.0",
-    description: "API documentation",
-    docsPath: "/docs",
-    specPath: "/docs/spec.json",
-  },
-};
+  pagesDir: "./pages",
+  useReactHooks: true,  
+  liveReload: true,
+});

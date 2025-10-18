@@ -34,13 +34,13 @@ export const settings: ApezeSettings = {
       // Custom middlewares here
     ],
   },
-
   connections: {
     database: {
       type: "sqlite",
       url: "./dev.db",
     },
   },
+  
 };
 
 export default settings;

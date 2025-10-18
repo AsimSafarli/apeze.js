@@ -1,8 +1,11 @@
 import { type PageMetadata } from "@apeze/core";
 import Footer from "../components/layouts/footer";
 import HomeFeatures from "../components/views/home/home-features";
+import { useState } from "react";
 
 const HomePage = function () {
+    const [data, setData] = useState<string | null>(null);
+
   return (
     <div class="min-h-screen bg-white">
       <nav class="border-b border-gray-200">

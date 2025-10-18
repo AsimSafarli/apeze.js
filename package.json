@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@apeze/cli": "^0.1.6",
-    "@apeze/core": "^0.1.7",
+    "@apeze/core": "^0.1.10",
     "marked": "^16.4.0",
-    "react": "^19.2.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "bun-types": "latest"
